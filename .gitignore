@@ -1,0 +1,67 @@
+# Environment variables / secrets
+.env
+.env.*
+*.env
+config.json
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*-wal
+*-shm
+
+# Logs
+*.log
+logs/
+
+# PDF reports / generated output (remove if you want to track sample reports)
+reports/
+*.pdf
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LangGraph / LangSmith
+.langgraph/
+langsmith.log
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# OS files
+Thumbs.db
